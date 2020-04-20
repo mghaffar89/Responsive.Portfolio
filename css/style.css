@@ -16,6 +16,10 @@ h1 {
   max-width: 800px;
 }
 
+.form-group {
+  position: center;
+}
+
 .fixed-footer {
   color: lightslategray;
   text-align: center;

@@ -10,6 +10,10 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -38,19 +42,67 @@
       </div>
     </nav>
 
-  <section class="form-section">
-    <div class="row row-cols-1 row-cols-md-3">
-        <div class="col">
-          <div class="card bg-dark border-info text-light mb-3">
-            <div class="card-body">
-              <h2 class="card-title">Contact Me</h2>
-              <p class="card-text">
-                Please contact me with any inquiries and I'll get back to you as soon as possible.
-              </p>
+    <section class="form-section">
+      <div class="container bg-dark py-5 text-light">
+        <div class="row">
+          <div class="col">
+            <div class="page-header" style="text-align: center;">
+              <h1>Contact Me</h1>
             </div>
           </div>
         </div>
-  </section>
+
+        <div class="row">
+          <div class="col-md-6">
+            <form action="">
+              <div class="form-row">
+                <div class="form-group col-md">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name *"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address *"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject *"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md">
+                  <textarea class="form-control" rows="5"></textarea>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md text-center">
+                  <button type="submit" class="btn btn-info">
+                    Send Message <i class="fa fa-paper-plane-o"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="fixed-footer">
       &copy; Mina G. 2020
