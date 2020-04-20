@@ -1,5 +1,15 @@
+h1 {
+  font-family: "Manrope", sans-serif;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
 .fixed-footer {
-  background: black;
+  color: lightslategray;
+  text-align: center;
   height: 50px;
   width: 100%;
   position: absolute;
