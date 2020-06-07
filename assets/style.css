@@ -1,0 +1,25 @@
+.navbar {
+  background-image: url(./navbar.jpg);
+  font-family: "Ribeye Marrow", cursive;
+  font-weight: bold;
+  color: #022140;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #022140;
+}
+
+body {
+  /*background-image: url(./pink_rice.png);*/
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: "Ribeye Marrow", cursive;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
