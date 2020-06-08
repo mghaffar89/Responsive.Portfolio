@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mina's Portfolio</title>
+    <title>Mina Ghaffar</title>
+    <link rel="icon" href="./assets/caticon.jpg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -11,15 +12,21 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-      <a class="navbar-brand" href="#">Mina Ghaffar</a>
+  <body style="background-image: url(./assets/pink_rice.png);">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"> Mina Ghaffar </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -32,100 +39,34 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html"
-            >Home <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="./index.html">Home</a>
+          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
-    <div class="container bg-dark py-5 text-light">
-      <main class="content">
-        <div class="row">
-          <div class="col">
-            <div class="page-header" style="text-align: center;">
-              <h1>Portfolio</h1>
-            </div>
+  <div class="container">
+        <div class="row row-style justify-content-center" id="header">
+            <header>
+                <h1>Portfolio</h1>
+            </header>
 
-            <div class="row row-cols-1 row-cols-md-3">
-              <div class="col mb-4">
-                <div class="card bg-dark border-info mb-3">
-                  <img
-                    src="https://picsum.photos/200"
-                    class="card-img-center"
-                    alt="Project 1 snapshot"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Project 1</h2>
-                    <p class="card-text">
-                      Cat ipsum dolor sit amet, show belly yet grass smells
-                      good, if it fits, i sits.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col mb-4">
-                <div class="card bg-dark border-info mb-3">
-                  <img
-                    src="https://picsum.photos/200"
-                    class="card-img-center"
-                    alt="Project 2 snapshot"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Project 2</h2>
-                    <p class="card-text">
-                      Cat ipsum dolor sit amet, show belly yet grass smells
-                      good, if it fits, i sits.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col mb-4">
-                <div class="card bg-dark border-info mb-3">
-                  <img
-                    src="https://picsum.photos/200"
-                    class="card-img-center"
-                    alt="Project 3 snapshot"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Project 3</h2>
-                    <p class="card-text">
-                      Cat ipsum dolor sit amet, show belly yet grass smells
-                      good, if it fits, i sits.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col mb-4">
-                <div class="card bg-dark border-info mb-3">
-                  <img
-                    src="https://picsum.photos/200"
-                    class="card-img-center"
-                    alt="Project 4 snapshot"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Project 4</h2>
-                    <p class="card-text">
-                      Cat ipsum dolor sit amet, show belly yet grass smells
-                      good,if it fits, i sits.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <footer class="navbar fixed-bottom" id="footer">
+        <div class="col-md-6 col-sm-5 text-center">
+          <p class="copyright d-none d-sm-block" style="font-family:Ribeye Marrow, cursive;">&copy; Copyright 2020</p>
         </div>
-      </main>
-    </div>
-
-    <footer class="fixed-footer">
-      &copy; Mina G. 2020
+        <div class="col-md-6 col-sm-7 text-center">
+          <section>
+            <ul class="menu">
+              <li><a href="#" target="_blank" class="fa fa-linkedin"></a></li>
+              <li><a href="#" target="_blank" class="fa fa-github"></a></li>
+              <li><a href="#" target="_blank" class="fa fa-facebook"></a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
