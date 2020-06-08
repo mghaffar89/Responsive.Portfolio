@@ -51,3 +51,12 @@ p {
 #header {
   padding-top: 2rem;
 }
+
+#row-bottom {
+  padding-bottom: 125px;
+}
+
+.row-style {
+  margin-top: 20px;
+  padding: 5px;
+}
