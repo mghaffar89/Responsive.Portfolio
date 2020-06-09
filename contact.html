@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Mina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mina Ghaffar</title>
+    <link rel="icon" href="./assets/caticon.jpg" type="image/x-icon">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -11,15 +12,21 @@
       crossorigin="anonymous"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&display=swap"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css"/>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-      <a class="navbar-brand" href="#">Mina Ghaffar</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"> Mina Ghaffar </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -32,18 +39,17 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html"
-            >Home <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="./index.html">Home</a>
+          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
+
     <section class="form-section">
-      <div class="container bg-dark py-5 text-light">
+      <div class="container py-5 text-dark">
         <div class="row">
           <div class="col">
             <div class="page-header" style="text-align: center;">
@@ -104,8 +110,21 @@
       </div>
     </section>
 
-    <footer class="fixed-footer">
-      &copy; Mina G. 2020
+    <footer class="navbar fixed-bottom" id="footer">
+        <div class="col-md-6 col-sm-5 text-center">
+          <p class="copyright d-none d-sm-block" style="font-family:Ribeye Marrow, cursive;">&copy; MinaG 2020</p>
+        </div>
+        <div class="col-md-6 col-sm-7 text-center">
+          <section>
+            <ul class="menu">
+              <li><a href="https://www.linkedin.com/in/mariam-ghaffar/" target="_blank" class="fa fa-linkedin"></a></li>
+              <li><a href="https://github.com/mghaffar89" target="_blank" class="fa fa-github"></a></li>
+              <li><a href="https://www.facebook.com/ghaffar.mina" target="_blank" class="fa fa-facebook"></a></li>
+              <li><a href="./assets/Mariam_Ghaffar_resume.pdf" target="_blank" class="fa fa-file"></a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
