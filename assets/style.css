@@ -13,6 +13,17 @@ p {
   color: #022140;
 }
 
+img {
+  padding-bottom: 2rem;
+  transition: transform 0.5s ease;
+}
+
+img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 .navbar {
   background-image: url(./navbar.jpg);
   font-family: "Ribeye Marrow", cursive;
@@ -52,11 +63,8 @@ p {
   padding-top: 2rem;
 }
 
-#row-bottom {
-  padding-bottom: 125px;
-}
-
 .row-style {
   margin-top: 20px;
   padding: 5px;
+  padding-bottom: 10px;
 }
